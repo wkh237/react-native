@@ -302,6 +302,11 @@ const ReactNative = {
     return require('takeSnapshot');
   },
 
+  // Add deprecated navigation native module
+  get NavigationExperimental() { 
+    return require('NavigationExperimental'); 
+  },
+
   // Prop Types
   get ColorPropType() {
     return require('ColorPropType');
